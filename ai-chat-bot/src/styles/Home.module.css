@@ -1,0 +1,82 @@
+.container {
+    min-height: 100vh;
+    padding: 0 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .main {
+    padding: 5rem 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+  }
+  
+  .title {
+    margin: 0 0 2rem;
+    line-height: 1.15;
+    font-size: 3rem;
+    text-align: center;
+  }
+  
+  .chatLog {
+    width: 100%;
+    height: 400px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+  }
+  
+  .userMessage, .aiMessage {
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 8px;
+    max-width: 80%;
+  }
+  
+  .userMessage {
+    background-color: #e3f2fd;
+    align-self: flex-end;
+    margin-left: auto;
+  }
+  
+  .aiMessage {
+    background-color: #f3e5f5;
+    align-self: flex-start;
+  }
+  
+  .form {
+    display: flex;
+    width: 100%;
+  }
+  
+  .input {
+    flex-grow: 1;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px 0 0 4px;
+  }
+  
+  .button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: #0070f3;
+    color: white;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #0051a2;
+  }
+  
